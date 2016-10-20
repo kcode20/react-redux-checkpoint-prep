@@ -52,7 +52,7 @@ describe('RegistryItem', () => {
             expect(itemWrapper.find('h2')).to.have.html('<h2>Item price: <span>100</span></h2>');
         });
 
-        it('is not hardcoded', () => {
+          it('is not hardcoded', () => {
             const aDifferentItem = {
                 id: 6,
                 name: 'Wine glasses',
